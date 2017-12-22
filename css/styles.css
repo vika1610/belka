@@ -1,0 +1,40 @@
+.fast-contacts__menu {
+ display: none;
+}
+@media (min-width: 320px) and (max-width: 767px){
+ .fast-contacts__menu {
+ display: block;
+ }
+.fast-contacts {
+  display: flex;
+  justify-content: space-between;
+  }
+}
+
+
+
+.address {
+    display: none;
+  }
+@media (min-width: 768px) {
+.address {
+    display: block;
+  }
+}
+
+.fast-contacts__time {
+  display: none;
+}
+@media (min-width: 768px) {
+.fast-contacts__time {
+    display: block;
+  }
+.fast-contacts__inner {
+  display: flex;
+  justify-content:flex-end;
+  width: 100%;
+  }
+}
+
+
+
